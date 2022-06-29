@@ -6,6 +6,7 @@ import CheckKesehatan from "./pages/cek-kesehatan/Kesehatan";
 import Navigasi from "./pages/navbar/Navbar";
 import Dashboard from "./pages/dashboard/dashboard";
 import About from "./component/tentang-kami/About";
+import DetailArtikel from "./pages/detailArtikel/DetailArtikel";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -18,7 +19,8 @@ function App() {
         <Navigasi />
         <Switch>
           <Route exact path="/" children={<Dashboard />} />
-          <Route path="/article" children={<ListArticle />} />
+          <Route exact path="/article" children={<ListArticle />} />
+          <Route path="/detail-article" children={DetailArtikel} />
           <Route path="/edukasi" children={<Education />} />
           <Route path="/cek-kesehatan" children={<CheckKesehatan />} />
           <Route path="/about" children={<About />} />
