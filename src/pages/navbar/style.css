@@ -1,0 +1,21 @@
+.navbar{
+    position:relative !important;
+    padding:0 !important;
+    z-index: 1;
+  
+}
+
+.navbar-nav{
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 auto;
+}
+.nav-link{
+    font-size: 20px;
+    cursor: pointer;
+    color: #097d54 !important;
+}
+.nav-link:hover{
+    background-color: #23af7e;
+    color: white !important;
+}

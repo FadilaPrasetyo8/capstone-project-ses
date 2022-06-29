@@ -1,0 +1,18 @@
+.aboutme {
+  width: auto;
+  height: 432px !important;
+
+  background-color: #38554a;
+}
+
+.col h3 {
+  margin: 30px 0 0 30px;
+  color: white;
+}
+
+.col p {
+  text-align: justify;
+  width: 500px;
+  margin: 10px 0 0 30px;
+  color: white;
+}

@@ -1,0 +1,28 @@
+.content2 {
+  background-color: #2cdd9d;
+  height: 470px;
+}
+
+.header-artikel {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.header-artikel h2 {
+  color: white;
+}
+
+.card {
+  width: 18rem;
+  display: flex;
+  justify-content: center;
+}
+
+.images-img {
+  display: flex;
+  justify-content: center;
+}
+
+.images-img img {
+  width: 12rem;
+}
