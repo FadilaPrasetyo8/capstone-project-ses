@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 
-export function ContentItem({description, date}) {
-    return(
-        <div className='content-item'>
-            <span>{description}</span>
-            <p>{date}</p>
-        </div>
-    )
+export function ContentItem({ description, date }) {
+  return (
+    <div className="content-item">
+      <span className="desc">{description}</span>
+      <p className="date">{date}</p>
+    </div>
+  );
 }
