@@ -19,8 +19,8 @@ function App() {
         <Navigasi />
         <Switch>
           <Route exact path="/" children={<Dashboard />} />
-          <Route exact path="/article" children={<ListArticle />} />
-          <Route path="/detail-article" children={DetailArtikel} />
+          <Route path="/article/:id" children={<DetailArtikel />} />
+          <Route path="/article" children={<ListArticle />} />
           <Route path="/edukasi" children={<Education />} />
           <Route path="/cek-kesehatan" children={<CheckKesehatan />} />
           <Route path="/about" children={<About />} />
