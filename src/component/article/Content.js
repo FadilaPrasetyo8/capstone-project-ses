@@ -10,16 +10,18 @@ import "./style.css";
 
 function Content({ data, idArticle }) {
   return (
-    <div className="content-app">
-      <Link to={`/article/${idArticle}`}>
-        {/* <ContentTitle title={data.title} /> */}
-        {data.title}
-      </Link>
-      <div className="item">
-        <ContentItem description={data.description} date={data.date} />
-        <ImageItem imageUrl={data.imageUrl} />
-      </div>
-      {/* <Card style={{ width: "60rem", margin: "auto" }}>
+    <Card style={{ width: "60rem", margin: "20px auto" }}>
+      <Card.Body>
+        <div className="content-app">
+          <Link to={`/article/${idArticle}`}>
+            {/* <ContentTitle title={data.title} /> */}
+            {data.title}
+          </Link>
+          <div className="item">
+            <ContentItem description={data.description} date={data.date} />
+            <ImageItem imageUrl={data.imageUrl} />
+          </div>
+          {/* <Card style={{ width: "60rem", margin: "auto" }}>
         <Card.Body>
           <Card.Title>
             <ContentTitle title={data.data.title} />
@@ -33,7 +35,9 @@ function Content({ data, idArticle }) {
           </Card.Text>
         </Card.Body>
       </Card> */}
-    </div>
+        </div>
+      </Card.Body>
+    </Card>
   );
 }
 
