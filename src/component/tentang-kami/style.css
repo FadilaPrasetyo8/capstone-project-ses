@@ -2,7 +2,7 @@
     background-image: url('./about.jpg');
     background-size: cover;
     height: 100vh;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -10,24 +10,21 @@
 
 .container-sub{
     position: absolute;
-    width: 50%;
+    width: 60%;
     text-align: center;
 }
 
-.content-item > p{
+.content-item > p, h1{
     color: #fff;
 }
-.profil{
-    position: relative;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: inset 5px 5px 15px rgba(0,0,0,0.15),
-    inset -5px -5px 15px rgba(225,225,225,0.15),
-    5px 5px 15px rgba(0,0,0,0.15),
-    -5px -5px 15px rgba(225,225,225,0.15);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    cursor: pointer;
-    padding: 30px;
+
+.container-pict{
+    background-color: rgb(15, 161, 90);
+}
+
+@media only screen and (max-width: 600px) {
+    .container-sub {
+      width: 100%;
+      padding: 20px;
+    }
   }

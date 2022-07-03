@@ -7,28 +7,20 @@ import { ContentTitle } from './ContentTitle'
 import { Card } from 'react-bootstrap'
 import './style.css'
 
-function Content({title, description, date, imageUrl}) {
+function Content({data}) {
     return(
         <div className='content-app'>
-            {/* <article>
-                <ContentTitle title={title} />
-            </article>
-            <div className='item'>
-                <ContentItem description={description} date={date} />
-                <ImageItem imageUrl={imageUrl} />
-            </div> */}
-
-            <Card style={{ width: '60rem', margin: 'auto' }}>
-                <Card.Body>
-                    <Card.Title>
-                        <ContentTitle title={title} />
-                    </Card.Title>
-                    <Card.Text>
-                        <ContentItem description={description} date={date} />
-                        <ImageItem imageUrl={imageUrl} />
-                    </Card.Text>
-                </Card.Body>
-            </Card>
+            <div className="row justify-content-center container-article">
+                <div className="col-lg-7 content-article">
+                    <article>
+                        <ContentTitle title={data.title} />
+                    </article>
+                    <div className='item'>
+                        <ContentItem description={data.description} date={data.date} />
+                        <ImageItem imageUrl={data.imageUrl} />
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

@@ -14,7 +14,7 @@
 }
 
 .content-title{
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -36,4 +36,18 @@
 
 .card-text{
     display: flex;
+}
+
+.desc{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.content-article{
+    position: relative;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 10px;
+    padding: 20px;
 }

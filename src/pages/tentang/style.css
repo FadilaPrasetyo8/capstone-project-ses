@@ -1,0 +1,33 @@
+.profil{
+  position: relative;
+  margin: 40px 10px;
+  box-shadow: inset -5px -5px 15px rgba(225,225,225,0.15),
+  5px 5px 15px rgba(0,0,0,0.15),
+  -5px -5px 15px rgba(225,225,225,0.15);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  padding: 30px;
+  background-color: rgb(247, 247, 247);
+  transition: 0.4s ease;
+  padding: 10px;
+  border: 6px solid rgb(2, 210, 110);
+  ;
+}
+
+.profil:hover {
+  transform: scale(1.1);
+}
+
+.images-profil{
+    margin: 0 auto;
+    width: 125px;
+    border-radius: 100px;
+}
+
+.footer{
+  position: relative;
+  text-align: center;
+  background-color: #1acd8e;
+}
