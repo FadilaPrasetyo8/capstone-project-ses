@@ -19,7 +19,7 @@ function Content({ data, idArticle }) {
           </Link>
           <div className="item">
             <ContentItem description={data.description} date={data.date} />
-            <ImageItem imageUrl={data.imageUrl} />
+            <ImageItem />
           </div>
           {/* <Card style={{ width: "60rem", margin: "auto" }}>
         <Card.Body>
