@@ -22,9 +22,12 @@ const DetailArtikel = () => {
           </div>
         </div>
       </div>
-      
+
       <div className="main-detail mt-4">
-        <p>{article.description}</p>
+        <div
+          className="detail-article"
+          dangerouslySetInnerHTML={{ __html: article.description }}
+        />
       </div>
     </div>
   );
