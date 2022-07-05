@@ -1,68 +1,44 @@
-  .container-fluid{
-    position: absolute;
-    background-image: linear-gradient(#fff, #51F3E8);
+.vis-container{
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+}
 
-  }
-  .vis-container{
-    font-size: 22px;
-    font-weight: 600;
-    color: #fff;
-  }
+li{
+  margin-top: 10px;
+  text-align: center;
+  justify-content: left;
+  font-size: 16px;
+  font-weight: 500;
+  list-style: none;
+  font-family: sans-serif;
+  font-weight: 500;
+}
 
-  .title{
-    position: relative;
-    margin: 10px;
-    border-radius: 0 40px 0 40px;
-    box-shadow: inset 5px 5px 15px rgba(0,0,0,0.15),
-    inset -5px -5px 15px rgba(225,225,225,0.15),
-    5px 5px 15px rgba(0,0,0,0.15),
-    -5px -5px 15px rgba(225,225,225,0.15);
-    background-image: linear-gradient(#51F3E8, #6369FB);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    cursor: pointer;
-    padding: 30px;
-  }
+header > p {
+  position: relative;
+  font-size: 40px;
+  align-items: center;
+  text-align: center;
+  color: #10AB73;
+}
 
-  li{
-    margin-top: 10px;
-    text-align: left;
-    justify-content: left;
-    font-size: 16px;
-    font-weight: 500;
-  }
-
-  .container-header{
-    display: flex;
-    width: 80%;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .Edukasi-image{
-    width: 372px;
-    height: 308px;
-    left: 767px;
-    top: 77px;
-    margin-bottom: 100px;
-    border-radius: 138px;
-  }
-  header > p {
-    position: relative;
-    width: 346px;
-    height: 100px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    margin-right: 100px;
-    align-items: center;
-    text-align: center;
-    color: #10AB73;
-  }
-
-  .icons{
-    width: 100px;
-    border-radius: 60%;
-  }
+.icons{
+  width: 100px;
+  border-radius: 60%;
+}
+.content-edukasi{
+  position: relative;
+  margin: 10px;
+  border-radius: 0 40px 0 40px;
+  box-shadow: inset 5px 5px 15px rgba(0,0,0,0.15),
+  inset -5px -5px 15px rgba(225,225,225,0.15),
+  5px 5px 15px rgba(0,0,0,0.15),
+  -5px -5px 15px rgba(225,225,225,0.15);
+  background-image: linear-gradient(#51F3E8, #6369FB);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  padding: 30px;
+}

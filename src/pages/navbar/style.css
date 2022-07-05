@@ -13,7 +13,7 @@
 .nav-link{
     font-size: 20px;
     cursor: pointer;
-    color: #097d54 !important;
+    color: hsl(0, 0%, 100%) !important;
 }
 .nav-link:hover{
     background-color: #23af7e;

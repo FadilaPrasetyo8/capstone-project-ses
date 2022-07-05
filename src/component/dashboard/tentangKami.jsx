@@ -1,6 +1,6 @@
 import "./tentangKami.css";
-
 import React from "react";
+import logomitra from "../image/logo_mitra.png"
 
 const TentangKami = () => {
   return (
@@ -10,20 +10,16 @@ const TentangKami = () => {
           <div className="col">
             <h3>Tentang Kami</h3>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              Jumlah penderita stunting di 
+              Indonesia sendiri terus mengalami peningkatan. Adapun maksud 
+              pembuatan website ini, untuk mengedukasi para Ibu dan masyarakat 
+              akan pentingnya pencegahan stunting. Dan juga dibutuhkan peran para 
+              anak muda untuk membantu mensosialisasikan “Pentingnya pencegahan stunting 
+              pada anak” melalui website yang telah dibuat.
             </p>
           </div>
-          <div className="col">
-            <img src="" alt="" />
+          <div className="col images-logo">
+            <img src={logomitra} alt="pict" />
           </div>
         </div>
       </div>

@@ -1,60 +1,22 @@
-import React from "react";
-import "./style.css";
-import { useState, useEffect } from "react";
-import edukasi_img from "./edukasi_img.png";
-import axios from "axios";
+import React from 'react'
+import './style.css'
 
-const Edukasi = () => {
-  const [showContent, setShowContent] = useState(false);
-  const [edukasi, setEdukasi] = useState([]);
-
-  useEffect(() => {
-    axios
-      .get("https://capstone-project-json.herokuapp.com/edukasi")
-      .then((res) => {
-        setEdukasi(res.data);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }, []);
-
-  const handleClick = () => {
-    setEdukasi(!edukasi);
-  };
-
-  return (
-    <>
-      <div className="container-fluid">
-        <header className="container-header">
-          <p>Edukasi Stunting</p>
-          <img
-            src={edukasi_img}
-            className="Edukasi-image"
-            alt="Edukasi-image"
-          ></img>
-        </header>
-        <div className="row justify-content-center">
-          {edukasi.map((edu) => (
-            <div className="col-sm-3 title" key={edu.id}>
-              <div id="line-chart-container" className="vis-container">
-                {edu.title}
-              </div>
-              <img src={edu.img} alt="icon" className="icons" />
-              <li>{edu.list}</li>
-
-              {/* {edukasi &&
-                            <>
-                                <img src={edu.img} alt='icon' className='icons'/>
-                                <li>{edu.list}</li>
-                            </>
-                        } */}
+const Edukasi = ({title, icons, list, show, onClick}) => {
+    return (
+        <>
+            <div 
+                data-testid="content-item" 
+                className="vis-container" 
+                onClick={onClick}
+            >
+                {title}
             </div>
-          ))}
-        </div>
-      </div>
-    </>
-  );
-};
+            <img src={icons} alt='icon' className='icons'/>
+            {show ? (
+                    <li data-testid="theList">{list}</li>
+            ): null}
+        </>
+    )
+}
 
 export default Edukasi;

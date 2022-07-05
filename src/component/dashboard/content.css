@@ -5,10 +5,11 @@
 .konten-main {
   height: auto;
 }
-.headerh1 h1 {
+.headerh1 > h1 {
   font-size: 32px;
   padding-top: 30px;
   text-align: center;
+  color: #23af7e;
 }
 
 .headerh5 h5 {

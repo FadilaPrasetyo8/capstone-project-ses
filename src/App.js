@@ -1,12 +1,13 @@
 import React from "react";
 
 import ListArticle from "./pages/article-list/ListArticle";
-import Education from "./pages/edukasi/Edukasi";
+import Education from "./pages/edukasi";
 import CheckKesehatan from "./pages/cek-kesehatan/Kesehatan";
 import Navigasi from "./pages/navbar/Navbar";
 import Dashboard from "./pages/dashboard/dashboard";
-import About from "./component/tentang-kami/About";
+import AboutUs from "./pages/tentang/About";
 import DetailArtikel from "./pages/detailArtikel/DetailArtikel";
+import Footer from './pages/tentang/Footer';
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -23,8 +24,9 @@ function App() {
           <Route path="/article" children={<ListArticle />} />
           <Route path="/edukasi" children={<Education />} />
           <Route path="/cek-kesehatan" children={<CheckKesehatan />} />
-          <Route path="/about" children={<About />} />
+          <Route path="/about" children={<AboutUs />} />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

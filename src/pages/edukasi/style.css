@@ -1,0 +1,40 @@
+.container-fluid{
+  margin-top: 50px;
+}
+.container-header{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.sub-header{
+  width: 50%;
+  height: 150px;
+  float: left;
+}
+.sub-header > h2 {
+  text-align: left;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: normal;
+  font-family: 'Franklin Gothic Medium';
+  color: #10AB73;
+  padding-bottom: 20px;
+}
+.sub-header > p{
+  margin-top: 0 auto;
+  align-self: flex-end;
+  bottom: 0px;
+  font-size: 18px;
+  color: #10AB73;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-header {
+      display: none;
+    }
+  }
+  

@@ -22,8 +22,9 @@ const DetailArtikel = () => {
           </div>
         </div>
       </div>
+      
       <div className="main-detail mt-4">
-        <div dangerouslySetInnerHTML={{ __html: article.description }} />
+        <p>{article.description}</p>
       </div>
     </div>
   );

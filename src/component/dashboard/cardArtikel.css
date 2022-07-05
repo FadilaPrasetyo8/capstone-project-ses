@@ -1,6 +1,5 @@
 .content2 {
   background-color: #2cdd9d;
-  height: 470px;
 }
 
 .header-artikel {
@@ -23,6 +22,18 @@
   justify-content: center;
 }
 
-.images-img img {
+.images-img > img {
   width: 12rem;
 }
+
+.card-img-article > img{
+  width: 250px;
+  border-radius: 20px;
+  padding-top: 18px;
+}
+
+.title{
+  padding: 0 20px;
+}
+
+
