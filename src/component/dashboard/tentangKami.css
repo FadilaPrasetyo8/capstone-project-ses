@@ -1,6 +1,5 @@
 .aboutme {
   width: auto;
-  height: 432px !important;
 
   background-color: #38554a;
 }
@@ -15,4 +14,9 @@
   width: 500px;
   margin: 10px 0 0 30px;
   color: white;
+}
+
+.images-logo > img{
+  width: 80%;
+  margin: 50px;
 }

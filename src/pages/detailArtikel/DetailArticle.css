@@ -1,0 +1,21 @@
+.main-bg {
+  height: 50px;
+  /* background-color: rebec */
+  background-image: url("../image/Group17.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+}
+
+.content-h1 {
+  padding-top: 200px;
+  color: white;
+}
+
+.main-detail p {
+  color: black;
+  text-align: justify !important;
+  margin: 0 30px;
+}

@@ -1,4 +1,3 @@
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from 'react-router-dom';
@@ -16,7 +15,7 @@ const Navigasi = () => {
               <Nav.Link as={NavLink} to="/edukasi">Edukasi</Nav.Link>
               <Nav.Link as={NavLink} to="/cek-kesehatan">Cek Kesehatan</Nav.Link>
               <Nav.Link as={NavLink} to="/article">Artikel</Nav.Link>
-              <Nav.Link as={NavLink} to="/about" >Tentang kami</Nav.Link>
+              <Nav.Link as={NavLink} to="/about" >Tentang Kami</Nav.Link>
             </Nav>
         </Navbar.Collapse>
       </Navbar>

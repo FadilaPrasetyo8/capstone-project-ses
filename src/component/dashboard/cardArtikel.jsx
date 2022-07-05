@@ -1,6 +1,9 @@
 import React from "react";
 import "./cardArtikel.css";
-import Group9 from "../image/Group9.png";
+import Group9 from "../image/Group9.jpg";
+import Group10 from "../image/Group10.jpg";
+import Group11 from "../image/Group11.jpg";
+
 
 const CardArtikel = () => {
   return (
@@ -13,11 +16,11 @@ const CardArtikel = () => {
           <div className="col">
             <div className="card-main">
               <div className="custom-card shadow">
-                <div className="card-img">
+                <div className="card-img-article">
                   <img src={Group9} alt="" />
                 </div>
-                <div className="card-content">
-                  <a href="#"></a>
+                <div className="card-content title">
+                  <a href="#">Bahaya Penyakit Stunting Pada Anak</a>
                 </div>
               </div>
             </div>
@@ -25,11 +28,11 @@ const CardArtikel = () => {
           <div className="col">
             <div className="card-main">
               <div className="custom-card shadow">
-                <div className="card-img">
-                  <img src={Group9} alt="" />
+                <div className="card-img-article">
+                  <img src={Group10} alt="" />
                 </div>
-                <div className="card-content">
-                  <a href="#"></a>
+                <div className="card-content title">
+                  <a href="#">Gejala Penyakit Stunting Yang Menghambat Pertumbuhan Anak</a>
                 </div>
               </div>
             </div>
@@ -37,11 +40,11 @@ const CardArtikel = () => {
           <div className="col">
             <div className="card-main">
               <div className="custom-card shadow">
-                <div className="card-img">
-                  <img src={Group9} alt="" />
+                <div className="card-img-article">
+                  <img src={Group11} alt="" />
                 </div>
-                <div className="card-content">
-                  <a href="#"></a>
+                <div className="card-content title">
+                  <a href="#">Rekomendasi Makanan Untuk Penderita Stunting</a>
                 </div>
               </div>
             </div>

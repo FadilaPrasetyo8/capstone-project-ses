@@ -5,7 +5,7 @@ const Edukasi = ({title, icons, list, show, onClick}) => {
     return (
         <>
             <div 
-                id="line-chart-container" 
+                data-testid="content-item" 
                 className="vis-container" 
                 onClick={onClick}
             >
@@ -13,7 +13,7 @@ const Edukasi = ({title, icons, list, show, onClick}) => {
             </div>
             <img src={icons} alt='icon' className='icons'/>
             {show ? (
-                    <li>{list}</li>
+                    <li data-testid="theList">{list}</li>
             ): null}
         </>
     )

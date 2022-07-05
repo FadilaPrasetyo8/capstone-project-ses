@@ -8,7 +8,7 @@ import axios from 'axios'
 
 export default function Education() {
 
-  const [edukasi, setEdukasi] = useState([])
+  const [edukasi, setEdukasi] = useState<any | null>([])
   const [indexShow, setIndexShow] = useState();
 
 
@@ -23,19 +23,6 @@ export default function Education() {
               console.log(err)
           })
   }, [])
- 
-
-  // const handleClick = (edu) => {
-  //   console.log(edu)
-  //   for(var i = 0; i <= edukasi.length; i++){
-  //     if(edukasi[i].id == edu.id ) edukasi[i].show = true
-  //   }
-  //     setEdukasi(edukasi)
-  // }
-
-  // const clickHandle = () => {
-  //   setShow(!show)
-  // }
   
   return (
     <div className='container-fluid'>
@@ -51,8 +38,8 @@ export default function Education() {
 
       <div className="row justify-content-center">
 
-        {edukasi.map((edu, index) => (
-          <div className="col-sm-3 content-edukasi"   key={index} >
+        {edukasi.map((edu:any, index) => (
+          <div className="col-sm-3 content-edukasi" data-testid={`content-item-${index}`} >
             <Edukasi
               onClick={() => setIndexShow(index)}
               title={edu.title}

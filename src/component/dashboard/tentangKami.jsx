@@ -1,6 +1,6 @@
 import "./tentangKami.css";
-
 import React from "react";
+import logomitra from "../image/logo_mitra.png"
 
 const TentangKami = () => {
   return (
@@ -10,18 +10,16 @@ const TentangKami = () => {
           <div className="col">
             <h3>Tentang Kami</h3>
             <p>
-                Stunting adalah masalah gizi kronis akibat kurangnya asupan
-                gizi dalam jangka waktu panjang sehingga mengakibatkan terganggunya 
-                pertumbuhan pada anak. Menyadari bahwa stunting adalah masalah 
-                kesehatan yang berisiko tinggi dan dapat memengaruhi pertumbuhan 
-                anak hingga dewasa, SES hadir sebagai website edukasi mengenai 
-                stunting, bekerja sama dengan YABB melalui program studi independent 
-                kampus merdeka untuk berbagi mengenai bagaimana pencegahan penyakit 
-                stunting
+              Jumlah penderita stunting di 
+              Indonesia sendiri terus mengalami peningkatan. Adapun maksud 
+              pembuatan website ini, untuk mengedukasi para Ibu dan masyarakat 
+              akan pentingnya pencegahan stunting. Dan juga dibutuhkan peran para 
+              anak muda untuk membantu mensosialisasikan “Pentingnya pencegahan stunting 
+              pada anak” melalui website yang telah dibuat.
             </p>
           </div>
-          <div className="col">
-            <img src="" alt="" />
+          <div className="col images-logo">
+            <img src={logomitra} alt="pict" />
           </div>
         </div>
       </div>

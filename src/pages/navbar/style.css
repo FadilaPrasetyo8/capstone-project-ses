@@ -16,7 +16,6 @@
     color: hsl(0, 0%, 100%) !important;
 }
 .nav-link:hover{
-    background-color: #1acd8e;
+    background-color: #23af7e;
     color: white !important;
 }
-

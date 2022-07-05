@@ -1,44 +1,44 @@
 .vis-container{
-    font-size: 22px;
-    font-weight: 600;
-    color: #fff;
-  }
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+}
 
-  li{
-    margin-top: 10px;
-    text-align: center;
-    justify-content: left;
-    font-size: 16px;
-    font-weight: 500;
-    list-style: none;
-    font-family: sans-serif;
-    font-weight: 500;
-  }
+li{
+  margin-top: 10px;
+  text-align: center;
+  justify-content: left;
+  font-size: 16px;
+  font-weight: 500;
+  list-style: none;
+  font-family: sans-serif;
+  font-weight: 500;
+}
 
-  header > p {
-    position: relative;
-    font-size: 40px;
-    align-items: center;
-    text-align: center;
-    color: #10AB73;
-  }
+header > p {
+  position: relative;
+  font-size: 40px;
+  align-items: center;
+  text-align: center;
+  color: #10AB73;
+}
 
-  .icons{
-    width: 100px;
-    border-radius: 60%;
-  }
-  .content-edukasi{
-    position: relative;
-    margin: 10px;
-    border-radius: 0 40px 0 40px;
-    box-shadow: inset 5px 5px 15px rgba(0,0,0,0.15),
-    inset -5px -5px 15px rgba(225,225,225,0.15),
-    5px 5px 15px rgba(0,0,0,0.15),
-    -5px -5px 15px rgba(225,225,225,0.15);
-    background-image: linear-gradient(#51F3E8, #6369FB);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    cursor: pointer;
-    padding: 30px;
-  }
+.icons{
+  width: 100px;
+  border-radius: 60%;
+}
+.content-edukasi{
+  position: relative;
+  margin: 10px;
+  border-radius: 0 40px 0 40px;
+  box-shadow: inset 5px 5px 15px rgba(0,0,0,0.15),
+  inset -5px -5px 15px rgba(225,225,225,0.15),
+  5px 5px 15px rgba(0,0,0,0.15),
+  -5px -5px 15px rgba(225,225,225,0.15);
+  background-image: linear-gradient(#51F3E8, #6369FB);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  padding: 30px;
+}
