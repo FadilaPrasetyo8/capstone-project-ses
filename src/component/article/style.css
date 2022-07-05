@@ -19,8 +19,8 @@
   margin-bottom: 10px;
 }
 
-.content-title a {
-  text-decoration: none;
+a {
+  text-decoration: none !important;
 }
 
 .content-item p {
@@ -32,6 +32,7 @@
 .image-item img {
   width: 300px;
   height: 200px;
+  margin-left: 30px;
 }
 
 .card-text {
@@ -44,6 +45,7 @@
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+  text-align: justify;
 }
 
 .date {

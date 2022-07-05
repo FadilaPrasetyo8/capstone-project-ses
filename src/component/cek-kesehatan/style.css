@@ -1,56 +1,55 @@
-.Container{
-    position: relative;
-    background-image: linear-gradient(#51F3E8, #6369FB);
-    background-image: url('./Vector.svg');
+.Container {
+  position: relative;
+  background-image: linear-gradient(#51f3e8, #6369fb);
 
-    height: 100vh;
-}
-
-.card-body{
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    width: 90%;
+  height: 100vh;
 }
 
-.header-content{
-    text-align: center;
-    font-family: sans-serif;
-    color: #2B7E60;
-    text-transform: uppercase;
-    font-size: 32px;
-    font-weight: 600;
-    box-sizing: border-box !important;
-    border: none !important;
-    border-color: none !important;
-}
-.content{
-    position: relative;
-    display: flex;
-}
-img.card-img-top{
-    width: 40% !important;
-    float: left !important;
-}
-.form-card{
-    margin: auto;
-    float: left !important;
-    width: 40% !important;
+.card-body {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
 }
 
-.form-label{
-    font-weight: 600 !important;
-    font-size: 22px !important;
-    margin: 0 !important;
-    color:#2B7E60 ;
+.header-content {
+  text-align: center;
+  font-family: sans-serif;
+  color: #2b7e60;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 600;
+  box-sizing: border-box !important;
+  border: none !important;
+  border-color: none !important;
 }
-.button-form{
-    position:relative;
-    margin-top: 20px;
-    width: 100%;
-    border-radius: 20px !important;
+.content {
+  position: relative;
+  display: flex;
 }
-.form-control{
-    border-radius: 20px !important;
-    background-color: #DCFFF4 !important;
+img.card-img-top {
+  width: 40% !important;
+  float: left !important;
+}
+.form-card {
+  margin: auto;
+  float: left !important;
+  width: 40% !important;
+}
+
+.form-label {
+  font-weight: 600 !important;
+  font-size: 22px !important;
+  margin: 0 !important;
+  color: #2b7e60;
+}
+.button-form {
+  position: relative;
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 20px !important;
+}
+.form-control {
+  border-radius: 20px !important;
+  background-color: #dcfff4 !important;
 }
