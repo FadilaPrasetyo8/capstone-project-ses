@@ -19,20 +19,6 @@ function Content({ data, idArticle }) {
         <ContentItem description={data.description} date={data.date} />
         <ImageItem imageUrl={data.imageUrl} />
       </div>
-      {/* <Card style={{ width: "60rem", margin: "auto" }}>
-        <Card.Body>
-          <Card.Title>
-            <ContentTitle title={data.data.title} />
-          </Card.Title>
-          <Card.Text>
-            <ContentItem
-              description={data.data.description}
-              date={data.data.publishedAt}
-            />
-            <ImageItem />
-          </Card.Text>
-        </Card.Body>
-      </Card> */}
     </div>
   );
 }
