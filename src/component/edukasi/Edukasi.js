@@ -19,4 +19,4 @@ const Edukasi = ({title, icons, list, show, onClick}) => {
     )
 }
 
-export default Edukasi;
+export default Edukasi

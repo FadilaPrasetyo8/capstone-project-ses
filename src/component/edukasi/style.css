@@ -2,12 +2,19 @@
   font-size: 22px;
   font-weight: 600;
   color: #fff;
+  background-color: #2cdd9c;
+  border-radius: 0 40px 0 40px;
+  padding: 10px 0;
+  transition: 0.4s ease;
+}
+
+.vis-container:hover{
+  background-color: #11a871;
 }
 
 li{
   margin-top: 10px;
   text-align: center;
-  justify-content: left;
   font-size: 16px;
   font-weight: 500;
   list-style: none;
@@ -22,23 +29,21 @@ header > p {
   text-align: center;
   color: #10AB73;
 }
-
 .icons{
   width: 100px;
   border-radius: 60%;
+  margin: 20px ;
 }
+
 .content-edukasi{
   position: relative;
-  margin: 10px;
+  margin: 20px;
   border-radius: 0 40px 0 40px;
-  box-shadow: inset 5px 5px 15px rgba(0,0,0,0.15),
-  inset -5px -5px 15px rgba(225,225,225,0.15),
-  5px 5px 15px rgba(0,0,0,0.15),
-  -5px -5px 15px rgba(225,225,225,0.15);
-  background-image: linear-gradient(#51F3E8, #6369FB);
+  background-color: #d9fff1;
+  box-shadow: inset 5px 5px 15px rgba(27, 121, 24, 0.15),
+  inset -5px -5px 15px rgba(5, 254, 34, 0.15);
   justify-content: center;
   align-items: center;
   text-align: center;
   cursor: pointer;
-  padding: 30px;
 }

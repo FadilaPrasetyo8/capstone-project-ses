@@ -39,7 +39,7 @@ export default function Education() {
       <div className="row justify-content-center">
 
         {edukasi.map((edu:any, index) => (
-          <div className="col-sm-3 content-edukasi" data-testid={`content-item-${index}`} >
+          <div className="col-lg-3 content-edukasi" data-testid={`content-item-${index}`} key={index} >
             <Edukasi
               onClick={() => setIndexShow(index)}
               title={edu.title}
