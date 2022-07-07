@@ -11,7 +11,7 @@ const Edukasi = ({title, icons, list, show, onClick}) => {
             >
                 {title}
             </div>
-                <img src={icons} alt='icon' className='icons'/>
+            <img src={icons} alt='icon' className='icons'/>
             {show ? (
                     <li data-testid="theList">{list}</li>
             ): null}
