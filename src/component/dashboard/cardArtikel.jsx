@@ -20,7 +20,7 @@ const CardArtikel = () => {
                   <img src={Group9} alt="" />
                 </div>
                 <div className="card-content title">
-                  <a href="#">Bahaya Penyakit Stunting Pada Anak</a>
+                  <a href="/article">Bahaya Penyakit Stunting Pada Anak</a>
                 </div>
               </div>
             </div>
@@ -32,7 +32,7 @@ const CardArtikel = () => {
                   <img src={Group10} alt="" />
                 </div>
                 <div className="card-content title">
-                  <a href="#">Gejala Penyakit Stunting Yang Menghambat Pertumbuhan Anak</a>
+                  <a href="/article">Gejala Penyakit Stunting Yang Menghambat Pertumbuhan Anak</a>
                 </div>
               </div>
             </div>
@@ -44,7 +44,7 @@ const CardArtikel = () => {
                   <img src={Group11} alt="" />
                 </div>
                 <div className="card-content title">
-                  <a href="#">Rekomendasi Makanan Untuk Penderita Stunting</a>
+                  <a href="/article">Rekomendasi Makanan Untuk Penderita Stunting</a>
                 </div>
               </div>
             </div>
