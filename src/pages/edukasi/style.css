@@ -1,17 +1,16 @@
 .container-fluid{
-  margin-top: 50px;
+  margin: 50px 0 50px 0;
 }
 .container-header{
     display: flex;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
-    margin-bottom: 50px;
     justify-content: center;
+    margin-bottom: 50px;
     align-items: center;
 }
 .sub-header{
   width: 50%;
-  height: 150px;
   float: left;
 }
 .sub-header > h2 {
@@ -34,7 +33,23 @@
 
 @media only screen and (max-width: 600px) {
     .container-header {
-      display: none;
+      display:block;
+      width: 100%;
+      padding-bottom: 100px;
+
+    }
+    .sub-header{
+      width: 100%;
+      z-index: 100;
+      position: relative;
+    }
+    .container-header > img{
+      margin-top: -100px;
+      width: 100%;
+      float: right;
+      padding-left: -20px;
+      padding-bottom: 50px;
+
     }
   }
   
