@@ -29,7 +29,7 @@ const Content = () => {
                       <img src={Group9} alt="" />
                     </div>
                     <div className="card-content">
-                      <a href="#">
+                      <a href="/edukasi">
                         Bagaimana cara mengetahui jika anak stunting?
                       </a>
                     </div>
@@ -43,7 +43,7 @@ const Content = () => {
                       <img src={Group10} alt="" />
                     </div>
                     <div className="card-content">
-                      <a href="#">
+                      <a href="/edukasi">
                         Bagaimana cara mengetahui jika anak stunting?
                       </a>
                     </div>
@@ -58,7 +58,7 @@ const Content = () => {
                       <img src={Group11} alt="" />
                     </div>
                     <div className="card-content">
-                      <a href="#">
+                      <a href="/edukasi">
                         Bagaimana cara mengetahui jika anak stunting?
                       </a>
                     </div>
