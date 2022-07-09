@@ -1,4 +1,4 @@
-.vis-container{
+.vis-container {
   font-size: 22px;
   font-weight: 600;
   color: #fff;
@@ -8,11 +8,11 @@
   transition: 0.4s ease;
 }
 
-.vis-container:hover{
+.vis-container:hover {
   background-color: #11a871;
 }
 
-li{
+li {
   margin-top: 10px;
   text-align: center;
   font-size: 16px;
@@ -27,23 +27,27 @@ header > p {
   font-size: 40px;
   align-items: center;
   text-align: center;
-  color: #10AB73;
+  color: #10ab73;
 }
-.icons{
+.icons {
   width: 100px;
   border-radius: 60%;
-  margin: 20px ;
+  margin: 20px;
 }
 
-.content-edukasi{
+.content-edukasi {
   position: relative;
   margin: 20px;
   border-radius: 0 40px 0 40px;
   background-color: #d9fff1;
   box-shadow: inset 5px 5px 15px rgba(27, 121, 24, 0.15),
-  inset -5px -5px 15px rgba(5, 254, 34, 0.15);
+    inset -5px -5px 15px rgba(5, 254, 34, 0.15);
   justify-content: center;
   align-items: center;
   text-align: center;
   cursor: pointer;
+}
+
+.list {
+  margin-bottom: 50px;
 }
