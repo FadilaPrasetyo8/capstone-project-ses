@@ -23,7 +23,7 @@ const Kesehatan = () => {
               <Form.Control
                 id="tb"
                 type="int"
-                placeholder="input tinggi badan"
+                placeholder="Input Tinggi Badan"
               />
             </Form.Group>
             <Form.Group
@@ -34,7 +34,7 @@ const Kesehatan = () => {
               <Form.Control
                 id="bb"
                 type="int"
-                placeholder="masukan berat badan"
+                placeholder="Masukan Berat Badan"
               />
             </Form.Group>
             <Form.Group

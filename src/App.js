@@ -7,7 +7,7 @@ import Navigasi from "./pages/navbar/Navbar";
 import Dashboard from "./pages/dashboard/dashboard";
 import AboutUs from "./pages/tentang/About";
 import DetailArtikel from "./pages/detailArtikel/DetailArtikel";
-import Footer from './pages/tentang/Footer';
+import Footer from "./pages/tentang/Footer";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
